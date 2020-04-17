@@ -9,11 +9,11 @@ class App < Sinatra::Base
   post '/team' do
     @team_name = "name"
     @coach = "coach"
-    @point_guard = "pg"
-    @shooting_guard = "sg"
-    @small_forward = "sf"
-    @power_forward = "pf"
-    @center = "c"
+    @pg = "pg"
+    @sg = "sg"
+    @sf = "sf"
+    @pf = "pf"
+    @c = "c"
 
     erb :team
   end
